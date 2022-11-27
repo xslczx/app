@@ -1,0 +1,5 @@
+<resources>
+  <string name="app_name">app</string>
+  <string name="tab_text_1">三方应用</string>
+  <string name="tab_text_2">系统应用</string>
+</resources>

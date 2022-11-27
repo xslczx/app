@@ -1,0 +1,78 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.xslczx.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/Users/xslczx/AndroidStudioProjects/app/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/xslczx/AndroidStudioProjects/app/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
+11-->/Users/xslczx/AndroidStudioProjects/app/app/src/main/AndroidManifest.xml:6:3-73
+11-->/Users/xslczx/AndroidStudioProjects/app/app/src/main/AndroidManifest.xml:6:20-70
+12    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES" />
+12-->/Users/xslczx/AndroidStudioProjects/app/app/src/main/AndroidManifest.xml:7:3-80
+12-->/Users/xslczx/AndroidStudioProjects/app/app/src/main/AndroidManifest.xml:7:20-77
+13    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+13-->/Users/xslczx/AndroidStudioProjects/app/app/src/main/AndroidManifest.xml:8:3-81
+13-->/Users/xslczx/AndroidStudioProjects/app/app/src/main/AndroidManifest.xml:8:20-78
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/Users/xslczx/AndroidStudioProjects/app/app/src/main/AndroidManifest.xml:9:3-11:36
+14-->/Users/xslczx/AndroidStudioProjects/app/app/src/main/AndroidManifest.xml:10:5-61
+15    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+15-->/Users/xslczx/AndroidStudioProjects/app/app/src/main/AndroidManifest.xml:12:3-14:49
+15-->/Users/xslczx/AndroidStudioProjects/app/app/src/main/AndroidManifest.xml:13:5-57
+16    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+16-->/Users/xslczx/AndroidStudioProjects/app/app/src/main/AndroidManifest.xml:15:3-16:43
+16-->/Users/xslczx/AndroidStudioProjects/app/app/src/main/AndroidManifest.xml:15:20-73
+17
+18    <application
+18-->/Users/xslczx/AndroidStudioProjects/app/app/src/main/AndroidManifest.xml:18:3-39:17
+19        android:allowBackup="true"
+19-->/Users/xslczx/AndroidStudioProjects/app/app/src/main/AndroidManifest.xml:19:5-31
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.7.0] /Users/xslczx/.gradle/caches/transforms-3/ae9616d13e5213c0aa09c43a28ce0756/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+21        android:dataExtractionRules="@xml/data_extraction_rules"
+21-->/Users/xslczx/AndroidStudioProjects/app/app/src/main/AndroidManifest.xml:20:5-61
+22        android:debuggable="true"
+23        android:extractNativeLibs="false"
+24        android:fullBackupContent="@xml/backup_rules"
+24-->/Users/xslczx/AndroidStudioProjects/app/app/src/main/AndroidManifest.xml:21:5-50
+25        android:icon="@mipmap/ic_launcher"
+25-->/Users/xslczx/AndroidStudioProjects/app/app/src/main/AndroidManifest.xml:22:5-39
+26        android:label="@string/app_name"
+26-->/Users/xslczx/AndroidStudioProjects/app/app/src/main/AndroidManifest.xml:23:5-37
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->/Users/xslczx/AndroidStudioProjects/app/app/src/main/AndroidManifest.xml:24:5-50
+28        android:supportsRtl="true"
+28-->/Users/xslczx/AndroidStudioProjects/app/app/src/main/AndroidManifest.xml:25:5-31
+29        android:testOnly="true"
+30        android:theme="@style/Theme.App" >
+30-->/Users/xslczx/AndroidStudioProjects/app/app/src/main/AndroidManifest.xml:26:5-37
+31        <activity
+31-->/Users/xslczx/AndroidStudioProjects/app/app/src/main/AndroidManifest.xml:28:5-38:16
+32            android:name="com.xslczx.app.MainActivity"
+32-->/Users/xslczx/AndroidStudioProjects/app/app/src/main/AndroidManifest.xml:29:7-35
+33            android:exported="true"
+33-->/Users/xslczx/AndroidStudioProjects/app/app/src/main/AndroidManifest.xml:30:7-30
+34            android:label="@string/app_name"
+34-->/Users/xslczx/AndroidStudioProjects/app/app/src/main/AndroidManifest.xml:31:7-39
+35            android:theme="@style/Theme.App.NoActionBar" >
+35-->/Users/xslczx/AndroidStudioProjects/app/app/src/main/AndroidManifest.xml:32:7-51
+36            <intent-filter>
+36-->/Users/xslczx/AndroidStudioProjects/app/app/src/main/AndroidManifest.xml:33:7-37:23
+37                <action android:name="android.intent.action.MAIN" />
+37-->/Users/xslczx/AndroidStudioProjects/app/app/src/main/AndroidManifest.xml:34:9-61
+37-->/Users/xslczx/AndroidStudioProjects/app/app/src/main/AndroidManifest.xml:34:17-58
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->/Users/xslczx/AndroidStudioProjects/app/app/src/main/AndroidManifest.xml:36:9-69
+39-->/Users/xslczx/AndroidStudioProjects/app/app/src/main/AndroidManifest.xml:36:19-66
+40            </intent-filter>
+41        </activity>
+42    </application>
+43
+44</manifest>
