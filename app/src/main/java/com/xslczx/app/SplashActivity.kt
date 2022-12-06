@@ -51,6 +51,9 @@ class SplashActivity : androidx.activity.ComponentActivity() {
                 start()
             }
         }
+        if (!isTaskRoot) {
+            finish()
+        }
     }
 
     private fun start() {
@@ -65,6 +68,7 @@ class SplashActivity : androidx.activity.ComponentActivity() {
             .onStart { }
             .onCompletion {
                 startActivity(Intent(this@SplashActivity, MainActivity::class.java))
+                finish()
             }
             .onEach {
                 Log.d(">>>:splash", "onTick:$it")
