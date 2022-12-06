@@ -47,7 +47,6 @@ class SplashActivity : androidx.activity.ComponentActivity() {
         lifecycleScope.launch(Dispatchers.IO) {
             delay(1000)
             mKeepOnAtomicBool.compareAndSet(true, false)
-            delay(2000)
             withContext(Dispatchers.Main) {
                 start()
             }
